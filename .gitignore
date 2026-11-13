@@ -1,0 +1,62 @@
+# LOGS
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# FRONTEND - REACT / VITE
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# BACKEND - JAVA / SPRING BOOT
+target/
+*.class
+HELP.md
+
+# Maven wrapper
+# Keep the Maven wrapper JAR if your project includes it.
+
+# ENVIRONMENT FILES AND SECRETS
+.env
+.env.*
+!.env.example
+*.secret
+
+# EDITORS AND IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.iws
+*.iml
+*.ipr
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ECLIPSE / STS
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# NETBEANS
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# OPERATING SYSTEM
+.DS_Store
+Thumbs.db
